@@ -1,0 +1,118 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Modification made in remote origin/master -->
+    <title>Appliance World Staff</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Meet the Appliance World Staff">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="popover"]').popover();
+        });
+    </script>
+    <link href="custom.css" rel="stylesheet" />
+    <!-- modification made in jsultzeAppliance branch -->
+</head>
+<body>
+    <div class="container">
+        <!-- A horizontal navbar that becomes vertical on small screens -->
+        <nav class="navbar navbar-expand-sm navbar-custom">
+            <!-- Links -->
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" href="default.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Information</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="aboutus.html">About Us</a>
+                        <a class="dropdown-item" href="contact.html">Contact Us</a>
+                        <a class="dropdown-item" href="staff.html">Staff</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Services</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="warehouse.html">Warehouse</a>
+                        <a class="dropdown-item" href="shippingandpickup.html">Shipping and Pickup</a>
+                        <a class="dropdown-item" href="repair.html">Repair</a>
+                        <a class="dropdown-item" href="restoration.html">Restoration</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="donations.html">Donations</a>
+                </li>
+            </ul>
+        </nav>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="default.html">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Staff</li>
+            </ol>
+        </nav>
+        <div class="jumbotron bg-dark text-white"
+             style="background-image: url(images/background.jpg); background-repeat: no-repeat; background-size: cover;">
+            <h1>Staff</h1>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row" style="margin-left: 0px">
+            <div class="col-sm-6 col-md-3 text-light bg-secondary">
+                <img src="images/Staff.png" alt="Staff">
+                <button type="button" class="btn btn-lg btn-danger" data-toggle="popover" title="Current Staff List" data-content="Current Staff List includes only CEO's, Managers, and Senior Positions">About Current Staff List</button>
+            </div>
+            <div class="col-sm-6 col-md-9 bg-light">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">First Name</th>
+                            <th scope="col">Last Name</th>
+                            <th scope="col">Position</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Kevin</td>
+                            <td>Cuban</td>
+                            <td>Appliance World CEO</td>
+                        </tr>
+                        <tr>
+                            <td>Reggie</td>
+                            <td>White</td>
+                            <td>Restoration Manager</td>
+                        </tr>
+                        <tr>
+                            <td>Carl</td>
+                            <td>Basher</td>
+                            <td>Repair Manager</td>
+                        </tr>
+                        <tr>
+                            <td>Kerry</td>
+                            <td>Burns</td>
+                            <td>Warehouse Senior Supervisor</td>
+                        </tr>
+                        <tr>
+                            <td>Ted</td>
+                            <td>Ruse</td>
+                            <td>Donations Manager</td>
+                        </tr>
+                        <tr>
+                            <td>Kerry</td>
+                            <td>Burns</td>
+                            <td>Shipping/Pick-up Manager</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>&copy; 2019 Appliance World</p>
+    </div>
+</body>
+</html>

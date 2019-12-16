@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /images
+Sitemap: https://jsultze1745ex4b.azurewebsites.net/sitemap.xml

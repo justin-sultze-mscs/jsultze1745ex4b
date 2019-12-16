@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+	<url>
+		<loc>https://jsultze1745ex4b.azurewebsites.net/default.html</loc>
+		<lastmod>2019-12-15</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://jsultze1745ex4b.azurewebsites.net/aboutus.html</loc>
+		<lastmod>2019-12-15</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://jsultze1745ex4b.azurewebsites.net/contact.html</loc>
+		<lastmod>2019-12-15</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://jsultze1745ex4b.azurewebsites.net/donations.html</loc>
+		<lastmod>2019-12-15</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://jsultze1745ex4b.azurewebsites.net/repair.html</loc>
+		<lastmod>2019-12-15</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://jsultze1745ex4b.azurewebsites.net/restoration.html</loc>
+		<lastmod>2019-12-15</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://jsultze1745ex4b.azurewebsites.net/shippingandpickup.html</loc>
+		<lastmod>2019-12-15</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://jsultze1745ex4b.azurewebsites.net/staff.html</loc>
+		<lastmod>2019-12-15</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://jsultze1745ex4b.azurewebsites.net/warehouse.html</loc>
+		<lastmod>2019-12-15</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	
+</urlset>
